@@ -1,0 +1,1 @@
+class t{constructor(t){this._data=t}update(t){Object.assign(this._data,t)}backColor(){return this._data.background}coordinate(){return this._data.coordinate}text(){return this._data.text}textColor(){return this._data.foreground}tickVisible(){return!1}visible(){return!!this._data.visible}borderColor(){return this._data.border??this._data.background}}export{t as T};

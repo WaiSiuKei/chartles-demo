@@ -1,0 +1,1 @@
+import{u as n}from"./index-5gyre0hA.js";function t(n){const t=Math.cos(n),r=Math.sin(n);return[[t,-r,0],[r,t,0],[0,0,1]]}function r(n,t){return[[n,0,0],[0,t,0],[0,0,1]]}function o(n,t){return[[1,0,n],[0,1,t],[0,0,1]]}function s(t,r){const o=[r.x,r.y,1],s=[0,0,0];for(let n=0;n<3;n++)for(let r=0;r<3;r++)s[n]+=t[n][r]*o[r];return new n(s[0],s[1])}export{o as a,t as r,r as s,s as t};
